@@ -47,21 +47,24 @@ public class Expense {
 
     //setter methods
     public void setId(String id){
-        this.id;
+        this.id = id;
     }
     public void setTitle(String title){
-        this.title;
+        this.title = title;
     }
     public void setAmount(double amount){
-        this.amount;
+        this.amount = amount;
     }
     public void setCategory(String category){
-        this.category;
+
+        this.category = category;
     }
     public void setDate(LocalDate date){
-        this.date;
+
+        this.date = date;
     }
     public void setPaymentMethod(String paymentMethod){
-        this.paymentMethod;
+
+        this.paymentMethod = paymentMethod;
     }
 }
